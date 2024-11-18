@@ -1,0 +1,60 @@
+.navbar {
+    border:solid white;
+    height: 42px;
+    display:flex;
+    align-items: center;
+
+
+}
+
+.navbar a {
+    color: rgb(195, 195, 195);
+    margin-left: 25px;
+}
+
+
+.imageContainer {
+border:solid red;
+background-image: url("https://images.paramount.tech/uri/mgid:arc:imageassetref:ws.mtv.com:3c5aee49-8ca8-463b-bc4b-9354c10e7dd5?quality=0.7&gen=ntrn&format=webp&height=600&width=360&crop=true");
+height: 50vh;
+background-size: contain;
+
+}
+
+.carouselContainer {
+    border:solid orange;
+    height: auto;
+    display: flex 
+
+}
+
+.carouselItem {
+    border:solid white;
+    height: 165px; 
+    width: 195px;
+    margin: 1em;
+    
+}
+
+.promoContainer {
+    border:solid green
+
+}
+
+#promopicitem {
+    height: 30vh;
+    width: 100%
+}
+.promoItem {
+    border:solid red;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+
+}
+
+body {
+    background-color: black;
+}
